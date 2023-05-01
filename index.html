@@ -1,0 +1,63 @@
+<html>
+<head>
+  <title>Real Time Image Identification App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body background="red">
+    <center>
+        <h1>
+            Google Lens
+            <img id="boi"src="https://m-cdn.phonearena.com/images/article/109267-wide-two_1200/Google-Lens-is-getting-a-system-wide-image-sharing-feature.jpg">
+        </h1>
+        <p>V.S</p>
+        <br>
+        <h1 class="btn btn-primary bb">Mobilenet</h1>
+    </center>
+    <ol>
+        <li class="q">
+            <h3>Test 1:Mouse</h3>
+            <br>
+            <span>
+                    <div>
+                        <img class= "qwerty" src = "mouse.jpg">
+                        <h3>Ouput on Google Lens
+                            <br>  
+                            Mouse                      
+                        </h3> 
+                        <h3>Output on Moblienet
+                            <br>
+                            Mouse
+                        </h3>
+                    </div>
+                    <h1>Result- Both got the answer</h1>
+            </span>    
+        </li>
+        <li class = "q">
+            <h3>Test 2:Phone</h3>
+            <br>
+            <div>
+                <img class= "qwerty"src = "phone.jpg">
+                <h3>Ouput on Google Lens
+                    <br>  
+                    Phone                      
+                </h3> 
+                <h3>Output on Moblienet
+                    <br>
+                    Ipad
+                </h3>
+            </div>
+            <h1>Result-Only Google lens go it correct</h1>
+        </li>
+    </ol>
+    <h1>Final conclusion:
+        <br>
+        Google Lens's is a lit bit better</h1>
+</body>
